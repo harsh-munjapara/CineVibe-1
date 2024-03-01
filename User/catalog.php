@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title>404 
+Not found</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            background-color: #f1f4f5;
+            color: #37474f;
+            line-height: 1.4;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+        .error_code {
+            display: block;
+            font-size: 92px;
+            font-weight: 700;
+            margin-top: -25px;
+            }
+        .error_brief {
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            }
+    </style>
+</head>
+<body>
+
+<div style="display: table; position: absolute; height: 100%; width: 100%;">
+    <div style="display: table-cell; vertical-align: middle; padding: 0 40px;">
+        <div style="margin-left: auto; margin-right: auto; width: 520px;">
+            <div style="float:left; width:200px; text-align: center; padding-right: 20px;">
+                <span class="error_code">404</span>
+                <span class="error_description">
+Not found</span>
+            </div>
+            <div style="float:left; width:300px;">
+                <span class="error_brief">Resource
+Not found on this server</span>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
